@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+}
+
+
+.header {
+    background-color: #1F2937;
+}
+
+.container-lg {
+    max-width: 1440px;
+    padding: 0 24;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: flex;
+}
+
+.container-center {
+    align-items: center;
+}
+
+.container-space-between {
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-weight: bolder;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.navbar .menu {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e5e7eb;
+    display: flex;
+    gap: 1em;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu li:hover {
+    color: #F9FAF8;
+}
+
+.hero-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+    gap: 2em;
+}
+
+.hero-section-left {
+    width: 50%;
+}
+
+.hero-section-right {
+    width: 50%;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.btn {
+    padding: 10px 25px;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: bold;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-border {
+    border: 3px solid #e5e7eb;
+}
+
+.btn:hover {
+    color: #F9FAF8;
+}
+
+.hero-image {
+    height: auto;
+    max-width: 100%;
+}
+
+.inf-header-text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    justify-content: space-between;
+    margin: 60px;
+}
+
+.card {
+    padding: 20px;
+    flex-direction: column;
+    max-width: 280px;
+    box-shadow: 0px 4px 24px 0px rgba(79,114,205,0.15);
+    border-radius: 8px;
+}
+
+.card:hover {
+    box-shadow: 0px 4px 42px 0px rgba(79,114,205,0.3);
+}
+
+.img-small {
+    height: auto;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 80px;
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.cta {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: #3882f6;
+
+    border-radius: 10px;
+    padding: 20px 80px;
+    color: white;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
